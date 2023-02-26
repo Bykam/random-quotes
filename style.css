@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 25%,
+    rgba(67, 9, 121, 1) 55%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+h1 {
+  color: #fffefd;
+  text-align: center;
+}
+
+#quotes-result {
+  position: relative;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 75%;
+  padding: 1rem 2rem;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px 8px 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 24px;
+  align-items: center;
+}
+
+.qiotes {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.axios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .axios {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .qiotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+}
