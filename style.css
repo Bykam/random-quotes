@@ -76,6 +76,27 @@ img {
   margin-top: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: #fffefd;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: blue;
+  text-align: center;
+  height: 5%;
+  width: 25%;
+  border-radius: 12px 12px 0 0;
+  padding-bottom: 25px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 @media only screen and (max-width: 480px) {
   .axios {
     display: block;

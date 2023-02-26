@@ -30,3 +30,5 @@ function myFunction() {
       });
     });
   }
+
+  window.alert("Source Code https://github.com/Bykam/random-quotes");
