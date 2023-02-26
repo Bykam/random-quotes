@@ -30,7 +30,3 @@ function myFunction() {
       });
     });
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 8ebbb9ee31ea0d8f8947d7cbb21dd9ef789a760e
